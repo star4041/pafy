@@ -317,13 +317,13 @@ class BasePafy(object):
 
         return self._likes
 
-    @property
-    def dislikes(self):
-        """ The number of dislikes for the video. Returns int. """
-        if not self._dislikes:
-            self._fetch_basic()
+    #@property
+    #def dislikes(self):
+    #    """ The number of dislikes for the video. Returns int. """
+    #    if not self._dislikes:
+    #        self._fetch_basic()
 
-        return self._dislikes
+    #    return self._dislikes
 
     @property
     def mix(self):
