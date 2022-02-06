@@ -68,7 +68,7 @@ class BasePafy(object):
 
         self._description = None
         self._likes = None
-        self._dislikes = None
+        #self._dislikes = None
         self._category = None
         self._published = None
         self._username = None
