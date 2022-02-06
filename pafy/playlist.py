@@ -64,7 +64,7 @@ def get_playlist(playlist_url, basic=False, gdata=False,
         likes=allinfo.get('likes'),
         title=allinfo.get('title'),
         author=allinfo.get('author'),
-        dislikes=allinfo.get('dislikes'),
+        #dislikes=allinfo.get('dislikes'),
         description=allinfo.get('description'),
         items=[]
     )
