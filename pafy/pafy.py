@@ -42,7 +42,7 @@ from .util import call_gdata
 Pafy = None
 
 # Select which backend to use
-backend = "internal"
+backend = "youtube-dl"
 if os.environ.get("PAFY_BACKEND") != "internal":
     try:
         import youtube_dl
